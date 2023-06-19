@@ -10,7 +10,7 @@
     "express-formidable": "^1.2.0",
     "gitignore": "^0.7.0",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^7.2.3",
+    "mongoose": "^7.3.0",
     "morgan": "^1.10.0",
     "slugify": "^1.6.6"
   },
@@ -19,6 +19,9 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix ./ecommerce",
     "both": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "engines": {
+    "node": ">=14.20.1"
   },
   "name": "ecommerce-be",
   "version": "1.0.0",
